@@ -1,0 +1,2 @@
+*.pth filter=lfs diff=lfs merge=lfs -text
+best_deit_model.pth filter=lfs diff=lfs merge=lfs -text
