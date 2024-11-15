@@ -2,31 +2,17 @@ import streamlit as st
 import numpy as np
 import os
 from PIL import Image, ImageFilter, ImageOps
-from transformers import ViTForImageClassification
-import torch
-import os
-import numpy as np
-import matplotlib.pyplot as plt
 import torch
 from transformers import DeiTForImageClassification, DeiTFeatureExtractor, DeiTConfig
-import pandas as pd
 import torch.nn as nn
 from PIL import Image
 import cv2
-from sklearn.utils.class_weight import compute_class_weight
-from captum.attr import Saliency
 import torch.nn.functional as F
-import os
-import numpy as np
-import matplotlib.pyplot as plt
-import torch
+
 from transformers import ViTForImageClassification, ViTFeatureExtractor
 import pandas as pd
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from torch.optim import AdamW
 import torch.nn as nn
-from torch.optim import AdamW
-from torch.optim.lr_scheduler import CosineAnnealingLR
 # Set up sidebar for navigation
 st.sidebar.title("Menu de Navigation")
 st.sidebar.markdown("Utilisez le menu ci-dessous pour naviguer dans l'application.")
