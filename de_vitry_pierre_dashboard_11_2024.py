@@ -6,8 +6,8 @@ import torch
 from transformers import DeiTForImageClassification, DeiTFeatureExtractor, DeiTConfig
 import torch.nn as nn
 from PIL import Image
-import cv2
 import torch.nn.functional as F
+
 # Set up sidebar for navigation
 st.sidebar.title("Menu de Navigation")
 st.sidebar.markdown("Utilisez le menu ci-dessous pour naviguer dans l'application.")
