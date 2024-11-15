@@ -1,6 +1,6 @@
 torch
 torchvision
-pil
+pillow
 numpy
 cv2 
 streamlit
