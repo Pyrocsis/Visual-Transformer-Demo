@@ -1,3 +1,6 @@
 torch
 torchvision
 pil
+numpy
+cv2 
+streamlit
