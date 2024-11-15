@@ -1,5 +1,6 @@
-torch
+streamlit
 pillow
 numpy
-streamlit
+torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 transformers
+
